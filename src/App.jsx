@@ -9,8 +9,8 @@ export default function App() {
       <div class = "container">
         <input type = "text" id = "textInput" dir="rtl"></input>
 
-        <div id = "AC"><button >AC</button></div>
-        <div><button class = "DEL">DEL</button></div>
+        <div id = "AC"><button  class = "func">AC</button></div>
+        <div><button id = "DEL" class = "func">DEL</button></div>
         <div><button class = "Operation" id = "divide">/</button></div>
 
         <div><button class = "Number" id = "1">1</button></div>
@@ -28,9 +28,9 @@ export default function App() {
         <div><button class = "Number" id = "9">9</button></div>
         <div><button class = "Operation" id = "subtract">-</button></div>
 
-        <div><button class = "period">.</button></div>
-        <div><button class = "0">0</button></div>
-        <div id = "equals"><button >=</button></div>
+        <div><button id = "period" class = "func">.</button></div>
+        <div><button class = "Number" id = "0">0</button></div>
+        <div id = "equals"><button class = "Operation" >=</button></div>
      </div>
     </>
   )
