@@ -4,21 +4,37 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 150px 80px 80px 80px 80px 100px;
-    
+    overflow: hidden;
     gap: 5px;
 }
 
 button {
-    border-radius:0;
     background-color:blue;
     border-width:0;
     color: white;
     font-weight:600;
     font-size: 1.5em;
+    width:100%;
+    height:100%;
+    border-radius:5px;
 }
 
 #textInput{
-
+    font-weight:500;
+    color:white;
+    font-size:3em;
     grid-column: 1 / 5;
-    border-radius:0;
+    border-radius:10px;
+    background-color:lightgrey;
+    border-color:grey;
+    border-width:0.1em;
+    box-shadow: none;
+    border-style: solid;
+}
+#AC{
+    grid-column:1/3;
+}
+
+#equals{
+    grid-column:3/5;
 }

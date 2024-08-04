@@ -7,30 +7,30 @@ export default function App() {
   return (
     <>
       <div class = "container">
-        <input type = "text" id = "textInput"></input>
+        <input type = "text" id = "textInput" dir="rtl"></input>
 
-        <button class = "AC">AC</button>
-        <button class = "DEL">DEL</button>
-        <button class = "Operation" id = "divide">/</button>
+        <div id = "AC"><button >AC</button></div>
+        <div><button class = "DEL">DEL</button></div>
+        <div><button class = "Operation" id = "divide">/</button></div>
 
-        <button class = "Number" id = "1">1</button>
-        <button class = "Number" id = "2">2</button>
-        <button class = "Number" id = "3">3</button>
-        <button class = "Operation" id = "multiply">*</button>
+        <div><button class = "Number" id = "1">1</button></div>
+        <div><button class = "Number" id = "2">2</button></div>
+        <div><button class = "Number" id = "3">3</button></div>
+        <div><button class = "Operation" id = "multiply">*</button></div>
 
-        <button class = "Number" id = "4">4</button>
-        <button class = "Number" id = "5">5</button>
-        <button class = "Number" id = "6">6</button>
-        <button class = "Operation" id = "add">+</button>
+        <div><button class = "Number" id = "4">4</button></div>
+        <div><button class = "Number" id = "5">5</button></div>
+        <div><button class = "Number" id = "6">6</button></div>
+        <div><button class = "Operation" id = "add">+</button></div>
 
-        <button class = "Number" id = "7">7</button>
-        <button class = "Number" id = "8">8</button>
-        <button class = "Number" id = "9">9</button>
-        <button class = "Operation" id = "subtract">-</button>
+        <div><button class = "Number" id = "7">7</button></div>
+        <div><button class = "Number" id = "8">8</button></div>
+        <div><button class = "Number" id = "9">9</button></div>
+        <div><button class = "Operation" id = "subtract">-</button></div>
 
-        <button class = "period">.</button>
-        <button class = "0">0</button>
-        <button class = "equals">=</button>
+        <div><button class = "period">.</button></div>
+        <div><button class = "0">0</button></div>
+        <div id = "equals"><button >=</button></div>
      </div>
     </>
   )
